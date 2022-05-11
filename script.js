@@ -13,7 +13,7 @@ for (let i = 1; i <= 16; i++) {
 	front.classList.add("front");
 	let back = document.createElement("img");
 	let rand = Math.floor(Math.random() * (16 - i));
-	var Source = words[rand] + ".jpeg";
+	var Source = words[rand] + ".png";
 	back.setAttribute("src", Source);
 	words.splice(rand, 1);
 	back.classList.add("back");
